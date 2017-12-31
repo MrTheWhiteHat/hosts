@@ -14,6 +14,10 @@
 
 我们立足于美利坚合众国，对全球华人服务，受北美法律保护。版权所有，未经授权禁止复制或建立镜像。
 
+## windows
+- 修改hosts文件: %SystemRoot%\System32\drivers\etc\hosts(需要管理员权限)
+- 打开cmd->ipconfig/flushdns(刷新windows系统的dns缓存)
+
 ## 如何贡献
 
 `hosts`等文件是由程序自动生成的，如要改变其内容，请修改`hosts-source`分支下的`hosts.yml`，具体说明见该分支下的`README`。
